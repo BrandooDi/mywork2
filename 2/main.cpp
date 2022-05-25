@@ -24,3 +24,8 @@ int main()
     cout << "Введите оценки по физике:\n";
     for (i = 0; i < n; i++)
         cin >> F[i];
+for (i = 0; i < n; i++) sumf += F[i];
+    cout << "Средняя оценка по физике:" << sumf / n;
+    if (suma / n > sumg / n)
+    {
+        if (suma / n > sumf / n)
