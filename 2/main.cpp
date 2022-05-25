@@ -29,3 +29,12 @@ for (i = 0; i < n; i++) sumf += F[i];
     if (suma / n > sumg / n)
     {
         if (suma / n > sumf / n)
+cout << "Наилучший предмет: Алгебра";
+        else
+            cout << "Наилучший предмет:Физика";
+    }
+    else
+        if (suma / n < sumg / n)
+        {
+            if (sumg / n < sumf / n)
+                cout << "Наилучший предмет:Физика";
